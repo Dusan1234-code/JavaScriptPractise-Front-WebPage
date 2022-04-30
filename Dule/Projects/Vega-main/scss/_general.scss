@@ -1,0 +1,86 @@
+@import "variables";
+@import "mixin";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.6rem;
+  color: $charocal;
+  line-height: 1.8rem;
+  background-color: #fff;
+  font-family: $font;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1365px;
+  margin: 0 auto;
+  padding: 1.4rem 2rem;
+  overflow: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn,
+.btn:visited {
+  display: inline-block;
+  border-radius: $radius;
+  padding: 1rem 4.8rem 1.4rem 4.8rem;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  background-color: $purple;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  font-weight: 700;
+  line-height: 2.2rem;
+  margin-bottom: 2rem;
+  background-color: $greenGray;
+  color: #fff;
+}
+
+.btn-call {
+  border-radius: $radius;
+  padding: 1rem 4.8rem 1.4rem 4.8rem;
+  font-size: 1.6rem;
+  background-color: $purple;
+  color: #fff;
+  text-align: center;
+}
+
+.arrow {
+  margin-top: 2rem;
+  border-radius: $radius;
+  padding: 0.5rem 2rem;
+  font-size: 2rem;
+  display: inline-block;
+}
+
+   .logo {
+      width: 7rem;
+      height: 7rem;
+      @include tablet {
+        display: none;
+      }
+    }
