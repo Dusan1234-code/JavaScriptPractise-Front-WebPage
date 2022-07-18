@@ -1,0 +1,128 @@
+.section-book {
+  padding: 70px 0;
+  @include mobile {
+    padding: 50px 0;
+  }
+  .book-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 20px;
+  }
+  .tabs {
+    font-size: 22px;
+    line-height: 50px;
+    border-bottom: 1px solid $white;
+    display: flex;
+    @include tablet {
+      font-size: 18px;
+    }
+    @include mobile {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+  .tab-link {
+    background-color: $gray;
+    color: $secondBlack;
+    padding: 0 40px;
+    border: 0.5px solid $white;
+    border-radius: 3px 3px 0 0;
+    @include mobile {
+      padding: 10px 32px;
+    }
+    &:hover {
+      @include desktop{
+        opacity: 0.7;
+      }
+    }
+    &.active {
+      background-color: $greenBright;
+      color: $white;
+      font-family: $epilog700;
+    }
+  }
+
+  .archives-list {
+    display: flex;
+    width: 100%;
+    @include mobile {
+      flex-direction: column;
+    }
+    .archive-link {
+      display: none;
+      @include mobile {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+  .archive-list-items {
+    display: flex;
+    @include mobile {
+      display: none;
+    }
+    .archive-list-item {
+      .tab-link {
+        width: 100%;
+        text-align: center;
+      }
+    }
+    &.active {
+      display: block;
+      @include mobile {
+        flex-direction: column;
+      }
+    }
+  }
+
+  .tab-content {
+    display: none;
+    background-color: $f1f1;
+    padding: 30px;
+    .years-text {
+      @include mobile {
+        font-size: 14px;
+      }
+      &:first-child {
+        margin-bottom: 20px;
+      }
+    }
+    &.active {
+      display: block;
+    }
+  }
+  .book-desc {
+    display: flex;
+    align-items: center;
+    column-gap: 160px;
+    padding: 140px 0 0 0;
+    @include mobile {
+      flex-direction: column;
+      row-gap: 20px;
+      padding: 100px 0 0 0;
+    }
+    .book-picture {
+      width: 100%;
+      height: 340px;
+      border-radius: 15px;
+      @include tablet {
+        height: 192px;
+      }
+      @include mobile {
+        height: 214px;
+      }
+    }
+    .desc-content {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      row-gap: 30px;
+      .desc-text{
+        color: $secondBlack;
+        font-size: 20px;
+        line-height: 30px;
+      }
+    }
+  }
+}

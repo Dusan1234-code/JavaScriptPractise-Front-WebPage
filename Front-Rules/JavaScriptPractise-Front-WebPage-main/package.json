@@ -1,0 +1,25 @@
+{
+  "name": "dusan",
+  "version": "1.0.0",
+  "description": "Frontend rules ",
+  "author": "dusan",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.1.0",
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "gulp-consolidate": "^0.2.0",
+    "gulp-iconfont": "^10.0.3",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sass-lint": "^1.4.0",
+    "gulp-stylelint": "^13.0.0",
+    "postcss": "^8.2.0",
+    "sass": "^1.52.1",
+    "stylelint": "^13.13.1",
+    "underscore": "^1.13.1"
+  },
+  "dependencies": {
+    "swiper": "^8.2.2"
+  }
+}

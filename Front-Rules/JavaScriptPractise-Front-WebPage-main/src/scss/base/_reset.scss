@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body {
+  font-size: 16px;
+  line-height: 28px;
+  font-family: $epilogue, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+  
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+  
+img {
+  width: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Front-end Rules web page">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Front End Rules</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <link href="./favicon.ico" rel="icon" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body class="body js-body">
+  <header class="header">
+    <div class="container header-wrapper">
+      <div class="header-container">
+        <a href="index.html" class="logo">
+          <img src="./images/Logo.png" alt="Logo picture" class="logo-img" />
+        </a>
+        <nav class="navbar">
+          <ul class="nav-menu js-nav-menu">
+            <li class="nav-list active js-nav-list">
+              <a href="#" class="nav-link">About us</a>
+              <a href="javascript:void(0);" class="js-arrow-right arrow-right">
+                <i class="js-icon-right icon-keyboard_arrow_right">
+                  <span class="sr-only">Icon right opens up submenu</span></i>
+              </a>
+              <ul class="submenu-list js-submenu-list">
+                <li><a href="#" class="submenu-link">Our company</a></li>
+                <li><a href="#" class="submenu-link">Our people</a></li>
+                <li>
+                  <a href="#" class="submenu-link">Policy & Regulation</a>
+                </li>
+                <li><a href="#" class="submenu-link">Our sponsorship</a></li>
+                <li><a href="#" class="submenu-link">Our history</a></li>
+              </ul>
+            </li>
+            <li class="nav-list js-nav-list">
+              <a href="#" class="nav-link">Investors</a>
+            </li>
+            <li class="nav-list js-nav-list">
+              <a href="#" class="nav-link">News & Media</a>
+              <a href="javascript:void(0);" class="js-arrow-right arrow-right"><span
+                  class="icon js-icon-right icon-keyboard_arrow_right"><span class="sr-only">Icon right is displayed here</span></span></a>
+              <ul class="submenu-list js-submenu-list">
+                <li><a href="#" class="submenu-link">News releases</a></li>
+                <li><a href="#" class="submenu-link">Blog</a></li>
+                <li>
+                  <a href="#" class="submenu-link">Image library</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-list js-nav-list">
+              <a href="#" class="nav-link">Contact us</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="icons js-icons">
+          <a href="#" class="search icon js-icon"><span class="icon-search"><span class="sr-only">Search icon</span></span></a>
+          <a href="#" class="menu icon js-icon"><span class="icon-menu"><span class="sr-only">Icon for displayig menu</span></span></a>
+          <a href="#" class="close icon js-icon"><span class="icon-close"><span class="sr-only">Icon for closing menu</span></span></a>
+        </div>
+        <div class="overlay js-overlay">
+            <a href="#" class="close js-close"><span class="icon-close"><span class="sr-only">Click closes overlay</span></span></a>
+            <form class="main-form">
+              <input type="search" placeholder="Search" class="input-search" />
+              <a href="#" class="search"><span class="icon-search"><span class="sr-only">Search icon</span></span></a>
+            </form>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main> 
+    <section class="section-main" style="background-image: url(./images/Main.png);">
+      <div class="container main-wrapper">
+        <div class="main-content">
+          <h1 class="main-header">
+            Donec <span class="brightGreen">condimentum</span> viverra ante
+          </h1>
+          <p class="main-paragraph">
+            Nullam molestie elit vel massa accumsan lacinia. Aliquam faucibus
+            sapien ante, eu cursus risus rutrum sit amet. Pellentesque at
+            vehicula lacus.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section-tourism">
+      <div class="container tourism-wrapper">
+        <div class="tourist-content">
+          <h3 class="section-header">Suspendisse vitae purus quis dui</h3>
+          <p class="tourist-text">
+            Nam a augue eu ipsum accumsan pretium. Proin ut dolor id arcu
+            dignissim dictum. Aenean laoreet, felis vel dapibus interdum,
+            turpis nunc congue tellus, sed ultricies lorem nulla eget diam.
+          </p>
+          <a href="#" class="btn">Fusce blandit</a>
+        </div>
+        <img src="./images/Tourism.png" class="tourism-image" alt="Two tourists on image" />
+      </div>
+    </section>
+    <section class="section-structure">
+      <div class="container">
+        <div class="structure-content swiper">
+          <h3 class="section-header">Sed ultricies lorem</h3>
+          <div class="cards swiper-wrapper">
+            <div class="card swiper-slide">
+              <img src="./images/Roads.png" alt="Picture of roads" class="card-img" />
+              <span class="card-name">Maecenas</span>
+              <p class="card-text">Proin ullamcorper fermentum quam</p>
+              <span class="card-date">05 November 2021</span>
+            </div>
+            <div class="card swiper-slide">
+              <img src="./images/Buildings.png" alt="Picture of multiple buildings" class="card-img" />
+              <span class="card-name">feugiat</span>
+              <p class="card-text">
+                Quisque cursus ornare mi malesuada porttitor
+              </p>
+              <span class="card-date">05 November 2021</span>
+            </div>
+            <div class="card swiper-slide">
+              <img src="./images/NewYork.png" alt="Picture of multiple buildings" class="card-img" />
+              <span class="card-name">feugiat</span>
+              <p class="card-text">
+                Quisque cursus ornare mi malesuada porttitor
+              </p>
+              <span class="card-date">05 November 2021</span>
+            </div>
+            <div class="card swiper-slide">
+              <img src="./images/Paris.png" alt="Picture of multiple buildings" class="card-img" />
+              <span class="card-name">feugiat</span>
+              <p class="card-text">
+                Quisque cursus ornare mi malesuada porttitor
+              </p>
+              <span class="card-date">05 November 2021</span>
+            </div>
+          </div>
+          <div class="arrows">
+            <a href="#" class="arrow arrow-prev"><span class="icon icon-keyboard_arrow_left"><span class="sr-only">Icon for sliding images to left</span></span></a>
+            <a href="#" class="arrow arrow-next"><span class="icon icon-keyboard_arrow_right"><span class="sr-only">Icon for sliding images to right</span></span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-book">
+      <div class="container">
+        <div class="book-content">
+          <h3 class="section-header">Turpis eu ultrices porttitor</h3>
+          <div class="book-years-content">
+            <ul class="tabs">
+              <li>
+                <a href="#javascript:void(0);" class="tab-link js-tab-link active" onclick="openTab('one')">2021
+                </a>
+              </li>
+              <li class="archives-list">
+                <a href="#javascript:void(0);" class="tab-link archive-link js-archive-link">Archives
+                </a>
+                <ul class="archive-list-items js-archive-list-items">
+                  <li class="archive-list-item">
+                    <a href="#javascript:void(0);" class="tab-link js-tab-link" onclick="openTab('zero')">2020
+                    </a>
+                  </li>
+                  <li class="archive-list-item">
+                    <a href="#javascript:void(0);" class="tab-link js-tab-link" onclick="openTab('nine')">2019
+                    </a>
+                  </li>
+                  <li class="archive-list-item">
+                    <a href="#javascript:void(0);" class="tab-link js-tab-link" onclick="openTab('eight')">2018</a>               
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <div class="tab-content js-tab-content active" id="one">
+              <p class="years-text">
+                Proin pretium vehicula sagittis. Donec eget orci eget nunc vulputate pharetra semper feugiat orci. Phasellus pharetra dui erat, ut eleifend nibh sagittis ac. Nulla molestie, nunc vel faucibus dictum, ligula tellus rutrum dui, nec mattis odio massa eu nunc. Morbi in nulla sed leo maximus scelerisque. Mauris libero odio, feugiat vel risus sed, pretium placerat turpis. Sed efficitur id sem at lacinia. Phasellus semper fringilla ullamcorper. Fusce id porta enim, sed gravida urna.
+              </p>
+              <p class="years-text">
+                Nullam molestie elit vel massa accumsan lacinia. Aliquam faucibus sapien ante, eu cursus risus rutrum sit amet. Pellentesque at vehicula lacus.
+              </p>
+            </div>
+            <div class="tab-content js-tab-content" id="zero">
+              <p class="years-text">
+                Proin pretium vehicula sagittis. Donec eget orci eget nunc vulputate pharetra semper feugiat orci. Phasellus pharetra dui erat, ut eleifend nibh sagittis sem at lacinia. Phasellus semper fringilla ullamcorper. Fusce id porta enim, sed gravida urna.
+              </p>
+              <p class="years-text">
+                Nullam molesus rutrum sit amet. Pellentesque at vehicula lacus.
+              </p>
+            </div>
+           
+            <div class="tab-content js-tab-content" id="nine">
+              <p class="years-text">
+                Proin pretium vehicula sagittis. Donec eget orci eget nunc a
+                tellus rutrum dui, nec mattis odio massa eu nunc. Morbi in
+                nulla sed leo maximus scelerisque. Mauris libero o vel risus
+                sed, pretium placerat turpis. Sed efficitur id sem at lacinia.
+                Phasellus semper fringilla ullamcorper. Fusce id porta enim,
+                sed gravida urna.
+              </p>
+              <p class="years-text">
+                Nullam molestie elit vel massa accumsan lacinia. Aliquam
+                faucibus sapien antesus risus rutrum sit amet. Pellentesque at
+                vehicula lacus.
+              </p>
+            </div>
+            
+            <div class="tab-content js-tab-content" id="eight">
+              <p class="years-text">
+                Proin pretium vehicula sagittis. Donec eget orci eget nunc
+                vulputate feugiat orci. Phasellus pharetra dui erat, ut
+                eleifend nibh sagittis ac. Nulla molestie, nunc vel faucibus
+                dictum, ligula tellus rutrum dui, nec mattis odio massa eu
+                nugiat vel risus sed, pretium placerat turpis. Sed efficitur
+                id sem at lacinia. Phasellus semper fringilla ullamcorper.
+                Fusce id porta enim, sed gravida urna.
+              </p>
+              <p class="years-text">
+                Nullam molestie elit vel massa accumsan lacinia. Aliquam
+                faucibus sapien eu cursus risus rutrum sit amet. Pellentesque
+                at vehicula lacus.
+              </p>
+            </div>
+
+            <div class="book-desc">
+              <img src="./images/Book.png" alt="Book picture" class="book-picture" />
+              <div class="desc-content">
+                <h3 class="section-header">Proin pretium vehicula</h3>
+                <p class="desc-text">
+                  Etiam vulputate ipsum massa. Pellentesque porttitor, mi
+                  varius sollicitudin varius, lacus ante ullamcorper justo, in
+                  semper ante velit ac ipsum.
+                </p>
+                <a href="#" class="btn">Fusce blandit</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-structure">
+      <div class="container">
+        <div class="structure-content swiper">
+          <h3 class="section-header">Elit vel massa accumsan lacinia</h3>
+          <div class="cards swiper-wrapper">
+            
+            <div class="card swiper-slide">
+              <img src="./images/Plate.png" alt="Picture of roads" class="card-img" />
+              <span class="card-name">Phasellus</span>
+              <p class="card-text">
+                Aliquam egestas finibus massa vitae sollicitudin
+              </p>
+              <span class="card-date">05 November 2021</span>
+            </div>
+          
+            <div class="card swiper-slide">
+              <img src="./images/Food.png" alt="Picture of multiple buildings" class="card-img" />
+              <span class="card-name">ullamcorper</span>
+              <p class="card-text">Etiam vulputate ipsum massa</p>
+              <span class="card-date">05 November 2021</span>
+            </div>
+            
+            <div class="card swiper-slide">
+              <img src="./images/NewYork.png" alt="Picture of multiple buildings" class="card-img" />
+              <span class="card-name">feugiat</span>
+              <p class="card-text">
+                Quisque cursus ornare mi malesuada porttitor
+              </p>
+              <span class="card-date">05 November 2021</span>
+            </div>
+          </div>
+          <div class="arrows">
+            <a href="#" class="arrow arrow-prev"><span class="icon icon-keyboard_arrow_left"><span class="sr-only">Icon for sliding images to the left</span></span></a>
+            <a href="#" class="arrow arrow-next"><span class="icon icon-keyboard_arrow_right"><span class="sr-only">Icon for sliding images to right</span></span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="accordion">
+      <div class="accordion_container container">
+        <h3 class="accordion__header section-header">Mauris libero odio</h3>
+        <div class="accordion__wrapper js-accordion">
+          <div class="accordion__panel js-panel">
+            <div class="accordion__box">
+              <h4 class="accordion__header-sec">Amet estibulum lobortis sed senectus</h4>
+              <a href="#javascript:void(0);" class="accordion__plusSign js-accordion__plusSign"></a>
+            </div>
+            <div class="accordion__description js-accordion__description">
+              <p class="accordion__text primarily ">Egestas a mi vestibulum           ullamcorper facilisi eget nam phasellus torquent gravida <a href="#" class="mainOrange">vestibulum ultrices elementum</a> viverra lobortis
+                ultricies parturient a vestibulum facilisi
+                dictumst mi dis scelerisque risus mattis. Nam eleifend torquent penatibus vitae morbi ad condimentum a
+                ullamcorper aliquam donec bibendum placerat suspendisse consectetur parturient at. Ut elementum vitae auctor neque scelerisque nullam porta urna penatibus tempor montes nullam pharetra tempus morbi non
+                ullamcorper tempor libero a a erat. Lacus ullamcorper vulputate ante nisi in ad dictumst fermentum quam a odio nec scelerisque a adipiscing suspendisse donec ultricies condimentum <a href="#" class="mainOrange">blandit tempor</a> in eros vestibulum vestibulum. Blandit a a interdum euismod vestibulum at consectetur ac vulputate ullamcorper scelerisque mi hendrerit a est scelerisque vestibulum
+                condimentum.
+              <p>
+              <p class="accordion__text">
+                Eros adipiscing vestibulum parturient cum nibh justo vehicula sodales a nostra condimentum adipiscing a in vulputate suspendisse parturient ac a adipiscing scelerisque suspendisse cum enim sem. A eget parturient posuere taciti adipiscing sed a vestibulum augue suspendisse ac dui primis suscipit ullamcorper ullamcorper nunc sit augue adipiscing facilisis pretium senectus condimentum bibendum.
+              </p>
+            </div>
+          </div> 
+
+          <div class="accordion__panel js-panel ">
+            <div class="accordion__box">
+              <h4 class="accordion__header-sec">Libero risus accumsan commodo scelerisque</h4>
+              <a href="#javascript:void(0);" class="accordion__plusSign js-accordion__plusSign"></a>
+            </div>
+            <div class="accordion__description js-accordion__description">
+              <p class="accordion__text primarily ">Egestas a mi vestibulum ullamcorper facilisi eget nam phasellus torquent gravida <a href="#" class="mainOrange">vestibulum ultrices elementum</a> viverra lobortis ultricies parturient a vestibulum facilisi dictumst mi dis scelerisque er vulputate ante nisi in ad dictumst fermentum quam a odio nec scelerisque a adipiscing suspendisse donec ultricies condimentum<a href="#" class="mainOrange"> blandit tempor</a> in eros vestibulum vestibulum. Bldrerit a est scelerisque vestibulum condimentum.<p>
+              <p class="accordion__text">Nullam molestie elit vel massa accumsan lacinia. Aliquam faucibus sapien ante, eu cursus risus rutrum sit amet. Pellentesque at vehicula lacus.</p>
+            </div>
+          </div>
+         
+          <div class="accordion__panel js-panel">
+            <div class="accordion__box">
+              <h4 class="accordion__header-sec">Condimentum phasellus cras diam consectetur</h4>
+              <a href="#javascript:void(0);" class="accordion__plusSign js-accordion__plusSign"></a>
+            </div>
+            <div class="accordion__description js-accordion__description">
+              <p class="accordion__text primarily ">Egestas a mi vestibulum ullamcorper facilisi eget nam phasellus torquent gravida <a href="#" class="mainOrange">vestibulum ultrices elementum</a> viverra lobortis ultricies parturient a vestibulum facilisi dictumst mi dis scelerisque risus mattis. Nam eleifend torquent penatibus vitae morbi ad condimentum a ullamcorper aliquam donec bibendum placerat suspendisse consectetur parturient at. Ut elementum vitae auctor neque scelerisque nullam porta urna penatibus tempor montes nullam pharetra tempus morbi non ullamcorper tempor libero a a erat. Lacus ullamcorper vulputate ante nisi in ad dictumst fermentum quam a odio nec scelerisque a adipiscing suspendisse donec ultricies condimentum<a href="#" class="mainOrange">blandit tempor</a> in eros vestibulum vestibulum. Blandit a a interdum euismod vestibulum at consectetur ac vulputate ullamcorper scelerisque mi hendrerit a est scelerisque vestibulum condimentum. </p>
+              <p class="accordion__text">Eros adipiscing vestibulum parturient cum nibh justo vehicula sodales a nostra
+                condimentum adipiscing a in vulputate suspendisse parturient ac a adipiscing scelerisque suspendisse cum
+                enim sem.
+                A eget parturient posuere taciti adipiscing sed a vestibulum augue suspendisse ac dui primis suscipit
+                ullamcorper
+                ullamcorper nunc sit augue adipiscing facilisis pretium senectus condimentum bibendum.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="form">
+      <div class="container form__container">
+        <h3 class="form__title">Mauris libero odio</h3>
+        <form class="form__group" onsubmit="return validateForm()">
+          <div class="form__wrapper">
+            <div class="form__box">
+              <label for="firstName" class="form__label">First Name*:</label>
+              <input type="text" placeholder="First Name" class="form__input js-required" name="firstName" id="firstName">
+              <span class="form__errorMessage">
+                Field must contain at least 1 character
+              </span>
+            </div>
+            <div class="form__box">
+              <label for="lastName" class="form__label">Last Name*:</label>
+              <input type="text" placeholder="Last Name" class="form__input js-required" name="lastName" id="lastName">
+              <span class="form__errorMessage">
+                Field must contain at least 1 character
+              </span>
+            </div>
+          </div>
+          <div class="form__wrapper">
+            <div class="form__box">
+              <label for="company" class="form__label">Company Name:</label>
+              <input type="text" placeholder="Company Name" class="form__input" name="company" id="company">
+            </div>
+            <div class="form__box">
+              <label for="title" class="form__label">Title:</label>
+              <input type="text" placeholder="Title" class="form__input" name="title" id="title">
+            </div>
+          </div>
+     
+          <div class="form__wrapper">
+            <div class="form__box">
+              <label for="email" class="form__label">Email address*:</label>
+              <input type="email" placeholder="Email address" class="form__input js-required" name="email" id="email">
+              <span class="form__errorMessage">
+                Field must contain at least 1 character
+              </span>
+            </div>
+            <div class="form__box">
+              <label for="phone" class="form__label">Phone:</label>
+              <input type="text" placeholder="Phone" class="form__input" name="phone" id="phone">
+            </div>
+          </div>
+          <div class="form__wrapper">
+            <div class="form__box">
+              <label for="message" class="form__label">Your Message*:</label>
+              <textarea name="message" placeholder="Your message..." class="form__input textarea js-required" id="message"></textarea>
+              <span class="form__errorMessage">Field must contain at least 1 character</span>
+            </div>
+          </div>
+          <div class="form__wrapper">
+            <div class="form__box-radio">
+              <input class="form__radio" type="radio" name="radio" id="radioOne"/>
+              <label for="radioOne" class="form__label">
+                <span class="form__radio-btn"></span>
+                Pellentesque at vehicula lacus
+              </label>
+              <input class="form__radio" type="radio" name="radio" id="radioTwo"/>
+              <label for="radioTwo" class="form__label">
+                <span class="form__radio-btn"></span>
+                Pellentesque at vehicula lacus
+              </label>
+            </div>
+          </div>
+          <span class="form__required"><em>*Required fields</em></span>
+          <div class="form__wrapper">
+            <div class="form__box-submit-btn">
+              <input type="submit" value="Submit" name="submit" class="form__submit">
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__wrapper container">
+      <ul class="footer__list">
+        <li class="footer__item">
+          <a href="#" class="footer__link">Sitemap</a>
+        </li>
+        <li class="footer__item"><a href="#" class="footer__link">Accessibility</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Privacy policy</a></li>
+      </ul>
+      <span class="footer__copy-right">&copy; Frontend Rules 2022</span>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

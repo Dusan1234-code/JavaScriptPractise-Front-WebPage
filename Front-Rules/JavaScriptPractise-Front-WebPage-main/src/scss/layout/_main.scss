@@ -1,0 +1,53 @@
+.section-main {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: $white;
+  padding: 161px 0;
+  @include tablet{
+    padding: 121px 0;
+  }
+  @include mobile{
+    padding: 60px 0;
+  }
+}
+
+  .main-content{
+    background-color: $mainColor;
+    max-width: 50%;
+    padding: 30px 25px;
+    @include tablet{
+      max-width: 80%;
+    }
+    @include mobile{
+      max-width: 100%;
+    }
+    .main-header {
+      font-size: 50px;
+      line-height: 51px;
+      font-family: $epilog700;
+      margin-bottom: 30px;
+      @include tablet {
+        font-size: 40px;
+        line-height: 41px;
+        width: 76%;
+        margin-bottom: 10px;
+      }
+      @include mobile{
+        width: 100%;
+      }
+     
+    }
+    .main-paragraph {
+      font-size: 22px;
+      line-height: 32px;
+      @include tablet {
+        font-size: 20px;
+        line-height: 30px;
+      }
+    }
+  }
+    
+    
+ 
+
